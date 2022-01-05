@@ -1,9 +1,6 @@
 package collections;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 import java.util.function.Consumer;
 
 public class CollectionDemo
@@ -45,8 +42,24 @@ public class CollectionDemo
 
         return set;
 
+    }
+    public Queue<String> queueDemo()
+    {
+        Queue<String> queue=new LinkedList<>();
+        queue.add("abc");
+        queue.add("pqr");
+        queue.add("lmn");
+        queue.add(null);
+        queue.add("pqr");
 
+        queue.forEach(System.out::println);
+        return queue;
 
+    }
+    public  static  void main(System[] args)
+    {
+        CollectionDemo cmd=new CollectionDemo();
+        cmd.queueDemo();
     }
 
 }

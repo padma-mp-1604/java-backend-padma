@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="VariableTests" time="0.053" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="AnimalTests" time="0.064" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="D:\javabackendtraining\java-backend-padma\java-simple-app\target\test-classes;D:\javabackendtraining\java-backend-padma\java-simple-app\target\classes;C:\Users\padma.mp\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\padma.mp\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\padma.mp\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\padma.mp\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\padma.mp\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\padma.mp\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="java.class.path" value="D:\javabackendtraining\java-backend-padma\day3\project2\target\test-classes;D:\javabackendtraining\java-backend-padma\day3\project2\target\classes;C:\Users\padma.mp\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\padma.mp\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\padma.mp\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\padma.mp\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\padma.mp\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\padma.mp\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.13.8-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\padma.mp\AppData\Local\Temp\surefire2770726269227968320\surefirebooter8585378970494700669.jar C:\Users\padma.mp\AppData\Local\Temp\surefire2770726269227968320 2022-01-04T15-54-03_195-jvmRun1 surefire750135871688949941tmp surefire_011199448908338439187tmp"/>
+    <property name="sun.java.command" value="C:\Users\padma.mp\AppData\Local\Temp\surefire10497142671586837225\surefirebooter7867331045274973774.jar C:\Users\padma.mp\AppData\Local\Temp\surefire10497142671586837225 2022-01-05T10-27-15_566-jvmRun1 surefire5135837873012917691tmp surefire_017318468354178326802tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="D:\javabackendtraining\java-backend-padma\java-simple-app\target\test-classes;D:\javabackendtraining\java-backend-padma\java-simple-app\target\classes;C:\Users\padma.mp\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\padma.mp\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\padma.mp\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\padma.mp\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\padma.mp\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\padma.mp\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="surefire.test.class.path" value="D:\javabackendtraining\java-backend-padma\day3\project2\target\test-classes;D:\javabackendtraining\java-backend-padma\day3\project2\target\classes;C:\Users\padma.mp\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\padma.mp\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\padma.mp\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\padma.mp\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\padma.mp\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\padma.mp\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\padma.mp"/>
     <property name="user.language" value="en"/>
@@ -27,13 +27,13 @@
     <property name="java.version.date" value="2021-10-19"/>
     <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.13.8-hotspot"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="D:\javabackendtraining\java-backend-padma\java-simple-app"/>
+    <property name="basedir" value="D:\javabackendtraining\java-backend-padma\day3\project2"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\padma.mp\AppData\Local\Temp\surefire2770726269227968320\surefirebooter8585378970494700669.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\padma.mp\AppData\Local\Temp\surefire10497142671586837225\surefirebooter7867331045274973774.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.13+8"/>
@@ -49,7 +49,7 @@
     <property name="java.io.tmpdir" value="C:\Users\padma.mp\AppData\Local\Temp\"/>
     <property name="idea.version" value="2021.3.1"/>
     <property name="java.version" value="11.0.13"/>
-    <property name="user.dir" value="D:\javabackendtraining\java-backend-padma\java-simple-app"/>
+    <property name="user.dir" value="D:\javabackendtraining\java-backend-padma\day3\project2"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -61,10 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="learnTheVariablesValidCase" classname="VariableTests" time="0.029">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <10> but was: <12>
-	at VariableTests.learnTheVariablesValidCase(VariableTests.java:15)
-]]></failure>
-  </testcase>
-  <testcase name="learVariablesInvalidCase" classname="VariableTests" time="0.002"/>
+  <testcase name="testAnimalObject" classname="AnimalTests" time="0.037"/>
+  <testcase name="testTigerLocation" classname="AnimalTests" time="0.004"/>
+  <testcase name="testTigerWalking" classname="AnimalTests" time="0"/>
 </testsuite>

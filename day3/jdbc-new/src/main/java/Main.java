@@ -4,7 +4,9 @@ import service.DbService;
 import java.sql.Date;
 import java.sql.SQLException;
 import java.time.LocalDate;
+
 public class Main {
+
     public static void main(String[] args) {
 
         try {
@@ -12,8 +14,8 @@ public class Main {
 
             DbService service = new DbService(connectivity.getConnection());
 //            int cnt = service.create(
-//                    2,
-//                    "pqr",
+//                    7,
+//                    "klm",
 //                    Date.valueOf(LocalDate.now()),
 //                    true
 //            );
@@ -23,7 +25,9 @@ public class Main {
 
 //            service.find();
 
-            service.findEmployeeByName("abc");
+//            service.findEmployeeByName("abc");
+
+            service.txnDemo(60, "kol", Date.valueOf(LocalDate.now()), true, 100);
 
         } catch (ClassNotFoundException e) {
             e.printStackTrace();

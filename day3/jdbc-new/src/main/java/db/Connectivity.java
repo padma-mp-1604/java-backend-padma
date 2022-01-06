@@ -15,6 +15,7 @@ public class Connectivity {
                 "root",
                 "password"
         );
+        connection.setAutoCommit(false);
 
         System.out.println("---- Connected to MySQL Successfully ----");
     }

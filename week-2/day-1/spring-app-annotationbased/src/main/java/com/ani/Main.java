@@ -11,7 +11,7 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        // hey spring - i have written beans configuration in AppConfig class
+        // well tell  hey spring - i have written beans configuration in AppConfig class
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 
         Car car1 = (Car) context.getBean("car");

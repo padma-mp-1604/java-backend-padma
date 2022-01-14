@@ -2,7 +2,6 @@ package com.padma.unittestingdemo.controller;
 
 import com.padma.unittestingdemo.domain.Car;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,7 +27,7 @@ public class CarControllerTests {
     @Test
     public void testGetMethod() {
 
-        String url = "http://" + "localhost" +":" + port +"/car";
+        String url = "http://" + "localhost" + ":" + port + "/car";
 
         Car car = template.getForObject( // GET method
                 url,
@@ -41,7 +40,7 @@ public class CarControllerTests {
     @DisplayName("GET - Car - Checking Status Code")
     @Test
     public void testGetStatusCode() {
-        String url = "http://" + "localhost" +":" + port +"/car";
+        String url = "http://" + "localhost" + ":" + port + "/car";
         ResponseEntity<Car> entity = template.getForEntity(url, Car.class);
         Assertions.assertEquals(
                 HttpStatus.OK,
@@ -52,7 +51,7 @@ public class CarControllerTests {
     @DisplayName("POST - Car - Saving Car Object")
     @Test
     public void testPostMethod() {
-        String url = "http://" + "localhost" +":" + port +"/car";
+        String url = "http://" + "localhost" + ":" + port + "/car";
         var car = new Car();
         car.setCost(56.23);
         car.setId(10L);

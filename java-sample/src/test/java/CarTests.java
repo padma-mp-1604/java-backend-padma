@@ -14,7 +14,7 @@ public class CarTests
     @DisplayName("Car Valid Object")
     @Test
     void testCarValidObject() {
-        Car car = new Car(); // you created object here
+        Car car = new Car();
         Assertions.assertNotNull(car);
     }
 
@@ -43,8 +43,8 @@ public class CarTests
     @DisplayName("Check Car Speed ")
     @Test
     void testSpeedUp() {
-        Car car = new Car(); // here speed is 10
-        car.speedUp(); // speed = speed + 10 = 10 + 10 = 20
+        Car car = new Car();
+        car.speedUp();
 
         int expectedSpeed = 20;
         int actualSpeed = car.speed;

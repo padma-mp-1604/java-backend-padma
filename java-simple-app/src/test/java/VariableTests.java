@@ -2,16 +2,13 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
+public class VariableTests {
 
-public class VariableTests
-{
     @DisplayName("Check variable values are correct")
     @Test
     void learnTheVariablesValidCase() {
         int osNum = 12;
-
         int expectedValue = 12;
-
         Assertions.assertEquals(expectedValue, osNum);
     }
 
@@ -23,4 +20,3 @@ public class VariableTests
         Assertions.assertNotEquals(expectedValue, osNum);
     }
 }
-

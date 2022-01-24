@@ -3,12 +3,10 @@ package clsobj;
 public class Car {
     public int speed;
 
-    public  Car()
-    {
+    public  Car() {
         speed=10;
     }
-    public  Car(int sp)
-    {
+    public  Car(int sp) {
         speed=sp;
     }
 

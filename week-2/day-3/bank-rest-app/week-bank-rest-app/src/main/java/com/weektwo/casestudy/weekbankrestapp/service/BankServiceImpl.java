@@ -39,13 +39,6 @@ public class BankServiceImpl implements BankService{
     @Override
     public BankAccount updateAccountDetails(BankAccount ba) {
         BankAccount baNew = repository.findById(ba.getAcNum()).orElse(null);
-
-
-
-//        BankAccount baOld = op.orElseThrow();
-//        boolean existingstatus = baOld.getStatus();
-//        boolean newstatus = Boolean.parseBoolean("true");
-
         //BankAccount baNew = new BankAccount();
         baNew.setBalance(ba.getBalance());
         baNew.setAcCrDt(ba.getAcCrDt());
@@ -54,8 +47,6 @@ public class BankServiceImpl implements BankService{
         baNew.setAcNum(ba.getAcNum());
 
         return repository.save(baNew);
-
-
         //repository.save(baNew);
         //return baNew.getStatus();
     }
@@ -84,7 +75,7 @@ public class BankServiceImpl implements BankService{
         Optional<BankAccount> op = repository.findById(acNum);
 
         BankAccount baOld = op.orElseThrow();
-        boolean existingstatus = baOld.getStatus();
+        boolean existingStatus = baOld.getStatus();
         boolean newstatus = Boolean.parseBoolean("false");
 
         BankAccount baNew = new BankAccount();
@@ -135,41 +126,44 @@ public class BankServiceImpl implements BankService{
         baNew.setStatus(baOld.getStatus());
         baNew.setAcHldNm(baOld.getAcHldNm());
         baNew.setAcNum(baOld.getAcNum());
-
         repository.save(baNew);
-
-//        withdraw(acNum, 10);
-
         return baNew.getBalance();
     }
 
     @Override
-    public int transferMoney(Long srcAc, Long dstAc, double amt) throws InvalidAmountException {
-        return 0;
-    }
+    public double transferMoney(Long srcAc, Long dstAc, double amt)  {
+        if (amt <= 0) throw new InvalidAmountException("Amount Should be Non Zero Positive " + amt);
+        BankAccount uSa = new BankAccount();
+        uSa.setAcNum(srcAc);
+        uSa.setAcHldNm(uSa.getAcHldNm());
+        uSa.setAcCrDt(uSa.getAcCrDt());
+        uSa.setBalance(uSa.getBalance() - amt);
+        uSa.setStatus(uSa.getStatus());
 
+        BankAccount uDa = new BankAccount();
+        uDa.setAcNum(dstAc);
+        uDa.setAcHldNm(uDa.getAcHldNm());
+        uDa.setAcCrDt(uDa.getAcCrDt());
+        uDa.setBalance(uDa.getBalance() + amt);
+        uDa.setStatus(uDa.getStatus());
+
+        repository.save(uSa);
+        repository.save(uDa);
+        return 1;
+    }
     @Override
     public BankAccount findAccountByAcNum(Long acNum)  throws InvalidAcNumberException {
         Optional<BankAccount> op = repository.findById(acNum);
 
         BankAccount baOld = op.orElseThrow();
-
-
         return repository.save(baOld);
 //        return baNew.getAcNum();
     }
-
-//    @Override
-//    public List<BankAccount> findAllBankAccounts() {
-//        return repository.findByStatusTrue();
-//    }
-
     @Override
     public List<BankAccount> findAllBankAccounts() throws InvalidAccountNumberExecption {
 
         return repository.findAll();
     }
-
     @Override
     public List<BankAccount> namesStartsWith(String prefix) {
         return repository.findByAcHldNmStartingWith(prefix);

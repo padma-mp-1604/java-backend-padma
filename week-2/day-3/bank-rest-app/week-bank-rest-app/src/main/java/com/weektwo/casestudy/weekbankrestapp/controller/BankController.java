@@ -148,15 +148,25 @@ public class BankController {
     }
 
     @PutMapping("/update")
-    public ResponseEntity<AppResponse<BankAccount>> updateAccountDetails(@RequestBody BankAccount ba)  {
+    public ResponseEntity<AppResponse<BankAccount>> updateAccountDetails(@RequestBody BankAccount ba) {
         var op = service.updateAccountDetails(ba);
         var response = new AppResponse<BankAccount>();
         response.setMsg("account update");
         response.setSts("success");
         response.setBody(op);
         return new ResponseEntity<>(response, HttpStatus.ACCEPTED);
-                //ResponseEntity.ok(response);
+        //ResponseEntity.ok(response);
 
+    }
+
+    @PutMapping("/transfer")
+    public ResponseEntity<AppResponse<Double>> transfer(@RequestBody Long acNum, Long acNum2, double amt) {
+        var num = service.transferMoney(acNum, acNum2, amt);
+        var response = new AppResponse<Double>();
+        response.setMsg("account updated");
+        response.setSts("success");
+        response.setBody(num);
+        return new ResponseEntity<>(response, HttpStatus.ACCEPTED);
     }
 }
 

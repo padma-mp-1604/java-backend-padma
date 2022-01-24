@@ -46,8 +46,8 @@ public class PatientControllerTests {
 
     @DisplayName("Patient Delete")
     @Test
-    public void testDeleteMethod(){
-        String url = "http://" + "localhost"+":"+port+"/patient";
+    public void testDeleteMethod() {
+        String url = "http://" + "localhost" + ":" + port + "/patient";
         template.delete(url);
     }
 }

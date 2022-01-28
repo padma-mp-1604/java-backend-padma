@@ -7,6 +7,9 @@ public class Emp {
     private String dob;
     private Boolean isManager;
 
+    public Emp(){
+
+    }
 
     public Emp(int id, String name, String dob, Boolean isManager){
 

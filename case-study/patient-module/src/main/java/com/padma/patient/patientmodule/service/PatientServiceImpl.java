@@ -77,5 +77,21 @@ public class PatientServiceImpl implements PatientService {
         return patientDtos;
     }
 
+    @Override
+    public List<MobileAndNameDto> findMobileAndNameVisitedToday() {
+        LocalDate dt = LocalDate.now();
+        List<Patient> patients = repository.findByLastVisited(dt);
 
+        List<MobileAndNameDto> patientDtos = new ArrayList<>();
+
+        for(int i=0;i<patients.size();i++) {
+            Patient patient1 = patients.get(i);
+            MobileAndNameDto dto = new MobileAndNameDto();
+            dto.setMobile(patient1.getMobile());
+            dto.setName(patient1.getName());
+
+            patientDtos.add(dto);
+        }
+        return patientDtos;
+    }
 }

@@ -55,7 +55,15 @@ public class PatientController {
         response.setBody(patientAll);
         return ResponseEntity.ok(response);
     }
-
+    @GetMapping("/today")
+    public ResponseEntity<AppResponse<List<MobileAndNameDto>>> searchMobileAndName() {
+        var patientMobAndName = service.findMobileAndNameVisitedToday();
+        var response = new AppResponse<List<MobileAndNameDto>>();
+        response.setStatus("success");
+        response.setMessage("patient mobile and name");
+        response.setBody(patientMobAndName);
+        return ResponseEntity.ok(response);
+    }
 }
 
 

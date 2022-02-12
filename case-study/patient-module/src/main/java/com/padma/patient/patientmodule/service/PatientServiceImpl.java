@@ -3,6 +3,9 @@ package com.padma.patient.patientmodule.service;
 import com.padma.patient.patientmodule.domain.Patient;
 import com.padma.patient.patientmodule.dto.MobileAndNameDto;
 import com.padma.patient.patientmodule.dto.PatientDto;
+import com.padma.patient.patientmodule.exception.DateOutOfBoundExecption;
+import com.padma.patient.patientmodule.exception.InvalidIdExecption;
+import com.padma.patient.patientmodule.exception.InvalidMobileNumberExecption;
 import com.padma.patient.patientmodule.repository.PatientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -25,21 +28,25 @@ public class PatientServiceImpl implements PatientService {
     private PatientRepository repository;
 
     @Override
-    public PatientDto patientRegistration(PatientDto dto) {
-
-        var patient = new Patient();
-        patient.setId(dto.getId());
-        patient.setName(dto.getName());
-        patient.setMobile(dto.getMobile());
-        patient.setAge(dto.getAge());
-        patient.setStatus(dto.getStatus());
-        patient.setLastVisited(dto.getLastVisited());
-        repository.save(patient);
-        return dto;
+    public PatientDto patientRegistration(PatientDto dto) throws InvalidIdExecption {
+        Patient patient1 = repository.findById(dto.getId()).orElseThrow(
+                () -> new InvalidIdExecption("Enter a valid mobile number")
+        );
+           var patient = new Patient();
+            patient.setId(dto.getId());
+            patient.setName(dto.getName());
+            patient.setMobile(dto.getMobile());
+            patient.setAge(dto.getAge());
+            patient.setStatus(dto.getStatus());
+            patient.setLastVisited(dto.getLastVisited());
+            repository.save(patient);
+            return dto;
     }
     @Override
-    public PatientDto upadatePatientInformation(PatientDto dto) {
-        Patient patient = repository.findById(dto.getId()).orElse(null);
+    public PatientDto upadatePatientInformation(PatientDto dto) throws InvalidIdExecption {
+        Patient patient = repository.findById(dto.getId()).orElseThrow(
+                () -> new InvalidIdExecption("Enter a valid id")
+        );
         var patient1 = new Patient();
         patient1.setId(dto.getId());
         patient1.setName(dto.getName());
@@ -50,12 +57,23 @@ public class PatientServiceImpl implements PatientService {
         repository.save(patient1);
         return dto;
     }
+
     @Override
     public void deletePatient(int id) {
         repository.deleteById(id);
+//    @Override
+//    public void deletePatient(int id) throws InvalidIdExecption{
+////        Patient patient = repository.findById(id).orElseThrow(
+////                () -> new InvalidIdExecption("Enter a valid id1")
+////        );
+////        repository.deleteById(id);
+//        if(repository.findById(id).equals(id)) {
+//            repository.deleteById(id);
+//        }
+//        else throw new InvalidIdExecption("Enter a valid id");
     }
     @Override
-    public List<PatientDto> findTenDaysBack() {
+    public List<PatientDto> findTenDaysBack()   {
         LocalDate dt = LocalDate.now();
         LocalDate backDate = dt.minusDays(10);
         List<Patient> patients = repository.findByLastVisited(backDate);
@@ -78,7 +96,7 @@ public class PatientServiceImpl implements PatientService {
     }
 
     @Override
-    public List<MobileAndNameDto> findMobileAndNameVisitedToday() {
+    public List<MobileAndNameDto> findMobileAndNameVisitedToday() throws DateOutOfBoundExecption {
         LocalDate dt = LocalDate.now();
         List<Patient> patients = repository.findByLastVisited(dt);
 
@@ -88,7 +106,8 @@ public class PatientServiceImpl implements PatientService {
             Patient patient1 = patients.get(i);
             MobileAndNameDto dto = new MobileAndNameDto();
             dto.setMobile(patient1.getMobile());
-            dto.setName(patient1.getName());
+            dto.setName(patient1.getName()
+            );
 
             patientDtos.add(dto);
         }

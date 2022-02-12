@@ -19,6 +19,7 @@ public class PatientControllerTests {
 
     @Autowired
     private TestRestTemplate template;
+
     @LocalServerPort
     private int port;
 

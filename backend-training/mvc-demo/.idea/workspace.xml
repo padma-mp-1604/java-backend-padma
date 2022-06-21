@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4c100064-a7f6-4e5a-844f-37b8e4354f92" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../collection/src/main/java/collectionprogram/ArrayList2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection/src/main/java/collectionprogram/ArrayList3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection/src/main/java/collectionprogram/ArrayListClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection/src/main/java/collectionprogram/CollectionProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection/src/main/java/collectionprogram/HashMapClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection/src/main/java/collectionprogram/HashSetClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection/src/main/java/collectionprogram/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection/src/main/java/collectionprogram/LaptopMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection/src/main/java/collectionprogram/LinkedList1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-lambda-expression/src/main/java/functionalinterface/FunctionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-lambda-expression/src/main/java/lambdaexpression3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-lambda-expression/src/main/java/lambdaexpression4/LambdaParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-lambda-expression/src/main/java/lambdaexpression5/Addable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-lambda-expression/src/main/java/lambdaexpression5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-lambda-expression/src/main/java/methodreference_constructor/ConstructorReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-lambda-expression/src/main/java/methodreference_constructor/Pqr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-lambda-expression/src/main/java/methodreference_static/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-lambda-expression/src/main/java/methodreferences/MethodReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-lambda-expression/src/main/java/methodreferences2/Printable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-lambda-expression/src/main/java/methoref_staticc3/Talking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-lambda-expression/src/main/java/methoreference_static1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-lambda-expression/src/main/java/optionalclass/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-lambda-expression/src/main/java/satic_and_default/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-lambda-expression/src/main/java/satic_and_default/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-lambda-expression/src/main/java/staticanddefaultmethod/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-lambda-expression/src/main/java/streamapi_source/AscendingAndDescending.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-lambda-expression/src/main/java/streamapi_source/EncodingAndDecoding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-lambda-expression/src/main/java/streamapi_source/FilterApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-lambda-expression/src/main/java/streamapi_source/ForEach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-lambda-expression/src/main/java/streamapi_source/MapApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_framework/src/main/java/object_creation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_framework/src/main/java/object_creation/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_framework/src/main/java/spring/ioc/Dell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_framework/src/main/java/spring/ioc/Hp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_framework/src/main/java/spring/ioc/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_framework/src/main/java/spring/ioc/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_framework/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_framework2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_framework2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_framework2/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_framework2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_framework2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_framework2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_framework2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_framework2/src/main/java/clint/Clint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_framework2/src/main/java/employee/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_framework2/src/main/java/employee/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_framework2/src/main/java/owner/Owner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_framework2/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springs_ioc_annotation/src/main/java/annotation/based/configuration/College.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springs_ioc_annotation/src/main/java/annotation/based/configuration/CollegeConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springs_ioc_annotation/src/main/java/annotation/based/configuration/EnglishTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springs_ioc_annotation/src/main/java/annotation/based/configuration/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springs_ioc_annotation/src/main/java/annotation/based/configuration/ScienceTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springs_ioc_annotation/src/main/java/annotation/based/configuration/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springs_ioc_annotation/src/main/java/spring/annotation/based/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springs_ioc_annotation/src/main/java/spring/annotation/based/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springs_ioc_annotation/src/main/java/spring/annotation/based/CPU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springs_ioc_annotation/src/main/java/spring/annotation/based/MobileProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springs_ioc_annotation/src/main/java/spring/annotation/based/Samsung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week1/week1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day3/.idea/day3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day3/java-jdbc-connectivity/.idea/java-jdbc-connectivity.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day3/java-jdbc-connectivity/src/main/java/db/db.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-4/day-2/collection/collection.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-4/day-5/orm-demo/src/main/java/com/paddu/ormdemo/repository/CarCrudRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-4/day-5/orm-demo/src/main/java/com/paddu/ormdemo/service/CarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-4/day-5/week-bank-rest-app/src/main/java/com/paddu/weekbaskrestapp/dto/AmountTransferDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-4/day-6/unit-testing-demo/src/main/java/com/paddu/testing/unittestingdemo/service/InvalidIdException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-4/java-lambda-expression/src/main/java/lambda/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-4/java-lambda-expression/src/main/java/lambda/Rectangular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-4/java-lambda-expression/src/main/java/lambda/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-4/java-lambda-expression/src/main/java/lambda/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-4/java-lambda-expression/src/main/java/lambdaExpression/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-4/java-lambda-expression/src/main/java/lambdaExpression/Runnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-4/java-lambda-expression/src/main/java/lambdaExpression/Tread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-4/java-lambda-expression/src/main/java/parameterLambda/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-4/practice_1/src/main/java/preacticePrograms_1/Abc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment/Simple-Banking-System/src/main/java/db/BankingConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment/Simple-Banking-System/src/main/java/db/BankingConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment/Simple-Banking-System/src/main/java/service/BnkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment/Simple-Banking-System/src/main/java/service/BnkService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment/Simple-Banking-System/target/classes/db/BankingConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment/Simple-Banking-System/target/classes/db/BankingConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment/Simple-Banking-System/target/classes/service/BnkService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment/Simple-Banking-System/target/classes/service/BnkService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study/patient-module/src/main/java/com/padma/patient/patientmodule/service/PatientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../case-study/patient-module/src/main/java/com/padma/patient/patientmodule/service/PatientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study/patient-module/src/main/java/com/padma/patient/patientmodule/service/PatientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../case-study/patient-module/src/main/java/com/padma/patient/patientmodule/service/PatientServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day3/jdbc-new/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day3/jdbc-new/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day3/jdbc-new/src/main/java/db/Connectivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day3/jdbc-new/src/main/java/db/Connectivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day3/jdbc-new/src/main/java/service/DbService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day3/jdbc-new/src/main/java/service/DbService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day3/jdbc-new/src/test/java/ConnectivityTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day3/jdbc-new/src/test/java/ConnectivityTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day3/jdbc-new/target/classes/db/Connectivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../day3/jdbc-new/target/classes/db/Connectivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day3/jdbc-new/target/classes/service/DbService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../day3/jdbc-new/target/classes/service/DbService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day3/jdbc-new/target/test-classes/ConnectivityTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../day3/jdbc-new/target/test-classes/ConnectivityTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day4/java-concurrent-programming/src/main/java/prll/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day4/java-concurrent-programming/src/main/java/prll/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day4/java-concurrent-programming/target/classes/prll/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../day4/java-concurrent-programming/target/classes/prll/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/basic-auth/src/main/java/com/padma/security/basicauth/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/basic-auth/src/main/java/com/padma/security/basicauth/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/day-1/spring-app-annotationbased/src/main/java/com/ani/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/day-1/spring-app-annotationbased/src/main/java/com/ani/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/day-1/spring-app-annotationbased/src/main/java/com/ani/car/logging/CarLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/day-1/spring-app-annotationbased/src/main/java/com/ani/car/logging/CarLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/day-1/spring-app-annotationbased/src/main/java/com/ani/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/day-1/spring-app-annotationbased/src/main/java/com/ani/driver/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/day-1/spring-app-annotationbased/src/main/java/com/ani/tempo/Tempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/day-1/spring-app-annotationbased/src/main/java/com/ani/tempo/Tempo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/day-1/spring-app-annotationbased/target/classes/com/ani/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/day-1/spring-app-annotationbased/target/classes/com/ani/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/day-1/spring-app-annotationbased/target/classes/com/ani/car/logging/CarLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/day-1/spring-app-annotationbased/target/classes/com/ani/car/logging/CarLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/day-1/spring-app-annotationbased/target/classes/com/ani/tempo/Tempo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/day-1/spring-app-annotationbased/target/classes/com/ani/tempo/Tempo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/day-2nd/mvc/mvc/src/main/java/com/padma/mvc/controller/CalcController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/day-2nd/mvc/mvc/src/main/java/com/padma/mvc/controller/CalcController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/day-3/spring-orm/orm-demo/src/main/java/com/padma/ormdemo/domain/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/day-3/spring-orm/orm-demo/src/main/java/com/padma/ormdemo/domain/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-2/day-3/spring-orm/orm-demo/src/main/java/com/padma/ormdemo/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-2/day-3/spring-orm/orm-demo/src/main/java/com/padma/ormdemo/service/CarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-4/day-2/spring-app-annotation-based/src/main/java/com/paddu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-4/day-2/spring-app-annotation-based/src/main/java/com/paddu/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-4/day-2/spring-app-annotation-based/src/main/java/com/paddu/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-4/day-2/spring-app-annotation-based/src/main/java/com/paddu/car/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-4/day-2/spring-app-annotation-based/src/main/java/com/paddu/logging/CarLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-4/day-2/spring-app-annotation-based/src/main/java/com/paddu/logging/CarLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-4/day-2/spring-app-annotation-based/target/classes/com/paddu/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-4/day-2/spring-app-annotation-based/target/classes/com/paddu/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-4/day-2/spring-app-annotation-based/target/classes/com/paddu/logging/CarLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-4/day-2/spring-app-annotation-based/target/classes/com/paddu/logging/CarLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-4/day-4/spring-data-jdbc/src/main/java/com/paddu/springdatajdbc/controller/DbController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-4/day-4/spring-data-jdbc/src/main/java/com/paddu/springdatajdbc/controller/DbController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-4/day-5/week-bank-rest-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-4/day-5/week-bank-rest-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-4/day-5/week-bank-rest-app/src/main/java/com/paddu/weekbaskrestapp/controller/BankController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-4/day-5/week-bank-rest-app/src/main/java/com/paddu/weekbaskrestapp/controller/BankController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-4/day-5/week-bank-rest-app/src/main/java/com/paddu/weekbaskrestapp/domain/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-4/day-5/week-bank-rest-app/src/main/java/com/paddu/weekbaskrestapp/domain/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-4/day-5/week-bank-rest-app/src/main/java/com/paddu/weekbaskrestapp/service/BankServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-4/day-5/week-bank-rest-app/src/main/java/com/paddu/weekbaskrestapp/service/BankServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-4/day-5/week-bank-rest-app/src/main/java/com/paddu/weekbaskrestapp/service/InvalidAmountException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-4/day-5/week-bank-rest-app/src/main/java/com/paddu/weekbaskrestapp/exception/InvalidAmountException.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2ACGxf0iW4bl1G4A9t2czpn0g1n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../java-backend-trainings/crud-opertation" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c100064-a7f6-4e5a-844f-37b8e4354f92" name="Changes" comment="" />
+      <created>1654506415417</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654506415417</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    <bean name="dell" class="spring.ioc.Dell"></bean>-->
+<!--    without touching source code we can change here-->
+<!--    <bean name="laptop" class="spring.ioc.Hp"></bean>-->
+<!--    <bean name="hp" class="hp.Hp">-->
+<!--        <constructor-arg ref="dell"/>-->
+<!--    </bean>-->
+
+    <bean name="student" class="object_creation.Student">
+    <property name ="stdName" value="abc"/>
+    <property name="id" value="1"></property>
+    </bean>
+
+
+</beans>
